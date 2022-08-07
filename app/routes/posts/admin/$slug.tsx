@@ -2,7 +2,7 @@ import type { ActionArgs, LoaderArgs } from "@remix-run/node";
 
 import { redirect, json } from "@remix-run/node";
 import { useActionData, useLoaderData, useTransition } from "@remix-run/react";
-import { AdminPostForm } from "components/AdminPostForm";
+import { AdminPostForm } from "~/components/AdminPostForm";
 import invariant from "tiny-invariant";
 
 import { editPost, getPost } from "~/models/post.server";

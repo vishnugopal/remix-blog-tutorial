@@ -5,7 +5,7 @@ import { useActionData, useTransition } from "@remix-run/react";
 import invariant from "tiny-invariant";
 
 import { createPost } from "~/models/post.server";
-import { AdminPostForm } from "components/AdminPostForm";
+import { AdminPostForm } from "~/components/AdminPostForm";
 
 export async function action({ request }: ActionArgs) {
   // TODO: remove me
